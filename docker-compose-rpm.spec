@@ -19,3 +19,4 @@ mkdir -p %{buildroot}/%{_bindir}
 
 %files
 %{_bindir}/%{name}
+
