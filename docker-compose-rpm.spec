@@ -1,7 +1,7 @@
 %global _prefix /usr/local
 
 Name:    docker-compose
-Version: 1.24.0
+Version: 1.28.0
 Release: 1
 Summary: Define and run multi-container applications with Docker https://docs.docker.com/compose/
 Group:   Development Tools
@@ -19,4 +19,3 @@ mkdir -p %{buildroot}/%{_bindir}
 
 %files
 %{_bindir}/%{name}
-
